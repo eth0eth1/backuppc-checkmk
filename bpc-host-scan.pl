@@ -74,7 +74,7 @@ foreach my $k1 (keys %Status){
                 #Print number of days since last backup
                 printf("%.0f", $diff);
                 #Print warn & crit values
-                print(";3;4 ");
+                print(";$warn;$crit ");
 
                 #Print nice output
                 print "$nice - Last backup was ";
